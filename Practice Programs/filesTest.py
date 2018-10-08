@@ -1,0 +1,5 @@
+f = open("D:/College/MSc (CA)/Programming/Python/Samples/text.txt","w")
+f.write("Shinde")
+print("Job done")
+f.flush()
+f.close()
