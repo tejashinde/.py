@@ -1,8 +1,7 @@
-total 8
 -rwxr-xrwx 1 tejasshinde tejasshinde    0 Oct  1 23:00 0tejas
--rwxrwxrwx 1 tejasshinde tejasshinde    0 Oct  1 22:59 7abc
--rwxrwxrwx 1 tejasshinde tejasshinde    0 Oct  6 01:50 ls.txt
--rwxrwxrwx 1 tejasshinde tejasshinde 1568 Oct  3 21:52 passwd
--rwxrwxrwx 1 tejasshinde tejasshinde 1568 Oct  3 22:22 passwd.txt
--rwxrwxrwx 1 tejasshinde tejasshinde   79 Sep 16 18:26 test
+-rwxr-xrwx 1 tejasshinde tejasshinde    0 Oct  1 22:59 7abc
+d---rwxrwx 1 tejasshinde tejasshinde    0 Oct  6 01:50 ls.txt
+-rw-rwx--x 1 tejasshinde tejasshinde 1568 Oct  3 21:52 passwd
+-rwxrwx-wx 1 tejasshinde tejasshinde 1568 Oct  3 22:22 passwd.txt
+-r--r-xrw- 1 tejasshinde tejasshinde   79 Sep 16 18:26 test
 drwxrwxrwx 1 tejasshinde tejasshinde 4096 Oct  6 01:49 testDir

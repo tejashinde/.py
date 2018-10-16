@@ -1,0 +1,4 @@
+total 2
+-r--r--r-- 1 frenc 197609 435 Oct 16 12:46 ls.txt
+-rw-r--r-- 1 frenc 197609 530 Oct 17 00:17 lschmod.py
+-rw-r--r-- 1 frenc 197609   0 Oct 17 00:18 testls
