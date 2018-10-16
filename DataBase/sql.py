@@ -7,10 +7,12 @@ if connection.execute(query):
     print("Table Created")
 
 for line in list(open("passwd.txt","r").readlines()):
-    element = line.split(":")
+    element = line.rstrip().split(":")
     connection.execute('insert into etc values(?,?,?,?,?,?,?)',element)
 
 cursor = connection.execute('select * from etc')
 
 for line in cursor:
-    print(line[0]  + line[1] + line[2] + line[3] + line[4] + line[5] + line[6])
+    print("Username : " + line[0] + "Password : " + line[1] + "User ID : " + line[2] + "Group ID : " + line[3])
+    print("Description : " + line[4] + "Home Directory : " + line[5] + "Default Shell : " + line[6])
+    print("-------------------------------------------------------------------------------------------------------------------------")
